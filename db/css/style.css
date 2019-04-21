@@ -1,0 +1,295 @@
+
+/*
+.wrapper { 
+    max-width: 1168px; 
+    margin: 0 auto; 
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+*/
+
+/* ========================== Start Header panel Style ========================== */
+
+
+
+
+
+.dropbtn {
+    background-color: #26343e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #26343e;
+    box-shadow: 0px 8px 18px #2f2929;
+    text-align: center;
+    transition: .4s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dropdown:hover {
+
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+body{
+  /*background-color: #222;*/
+}
+
+.container-fluid{
+/*    padding: 0; */
+}
+
+
+.header_panel {
+    background-color: #26343e;
+}
+
+.logo {
+    width: 25%;
+    margin: 0 auto;
+    height: 90px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-info {
+    width: 20%;
+    margin-left: 58%;
+    margin-top: 12px;
+}
+
+.logo-info img{
+    width: 100%;
+}
+
+.menu {
+    
+}
+
+.ropm , .pm , .nm , .sm{ 
+    text-align: center;
+    background-color: #26343e;
+}
+
+.pm{
+    
+}
+
+.ropm a, .pm a, .nm a , .sm a{
+color: white;
+    font-size: 1.27em;
+    padding-right: 20px;
+    text-decoration: none;
+    padding-left: 20px; 
+}
+
+
+.ropm a:hover, .pm a:hover, .nm a:hover , .sm a:hover{
+        color: white;
+    font-size: 1.27em;
+    padding-right: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    background: rgb(37, 86, 154);
+}
+
+.sm{
+    text-align: right;
+}
+
+.sm input{
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.allPromotions {
+    margin-top: 30px;
+    height: 200px;
+    border: 2px solid #0074e8;
+    margin-bottom: 30px;
+    box-shadow: 5px 8px 15px #226;
+}
+
+.sign-log {
+    
+}
+
+.sign-log h1{
+        text-align: center;
+    background-color: #26343e;
+    color: white;
+    padding: 4px;
+}
+
+.sign-log a{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.best-seeling-product {
+    
+}
+
+.best-seeling-product h1{
+        text-align: center;
+    background-color: #26343e;
+    color: white;
+    padding: 4px;
+}
+
+.top-view {
+    
+}
+
+.top-view h1{
+        text-align: center;
+    background-color: #26343e;
+    color: white;
+    padding: 4px;
+}
+
+
+
+.title-what h1{
+    margin-bottom: 20px;
+    margin-top: 12px;
+    font-family: fantasy;
+}
+
+.title-what {
+    text-align: center;
+}
+
+.left-product {
+    
+}
+
+.right-bars .row{
+    margin-bottom: 15px;
+}
+
+.product {
+    text-align: center;
+    padding: 9px;
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 28px #99d0f7;
+    background-color: #3a2727;
+}
+
+.product:hover {
+    text-align: center;
+    padding: 9px;
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 28px #99d0f7;
+    background-color: #564040;
+}
+
+
+
+.product p{
+    margin: 0px;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 1.7em;
+    padding-top: 0px;
+    color: #fff; 
+}
+
+.product img{
+    width: 80%;
+    height: 280px;
+}
+
+.product form{
+    
+}
+
+.product form input{
+    
+}
+
+.buy_button {
+  background-color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 11px #9ab7cc;  
+}
+
+.admin-panel {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 45px;
+    border: 2px solid #fff;
+    box-shadow: 0px 4px 20px #222;
+    padding: 15px;
+}
+
+.admin-panel form input{
+	display: block;
+    text-align: center;
+}
+
+.productForBuy {
+    text-align: center;
+    padding: 9px;
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 28px #99d0f7;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.productForBuy p{
+        margin: 0px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 1.7em;
+    padding-top: 0px;
+    color: #3939c1;
+}
+
+.productForBuy img{
+    width: 70%;
+}
+
+.all-user {
+        width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.body_panel-for-product {
+    background-color: #484242;
+}
